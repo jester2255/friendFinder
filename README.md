@@ -1,4 +1,7 @@
 # friendFinder
 Finding friend made easy
-
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+##things to finish friend finder
+-[x] set up files and directories
+-[] Add Code
+-[] Push to github
+-[] deploy through heroku
