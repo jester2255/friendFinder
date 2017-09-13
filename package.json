@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/jester2255/friendFinder#readme",
   "dependencies": {
-    "express": "^4.15.4"
+    "body-parser": "^1.18.1",
+    "express": "^4.15.4",
+    "path": "^0.12.7"
   }
 }
