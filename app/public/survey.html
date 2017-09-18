@@ -272,10 +272,11 @@
 			$.post('/api/friends', userInput)
       		.done(function(data) {
       			// console.log('response = ' + JSON.stringify(data));
-
+      			// this has changed
+      			
       			// Set the name and image values of friend match
-      			$('#userMatch').html(data.matchName);
-		    	$("#userMatchImage").attr("src", data.matchImage);
+      			$('#userMatch').html(data.nameMach);
+		    	$("#userMatchImage").attr("src", data.imgMach);
 
 		    	// Pop open the modal dialog
       			$('#modal1').modal('open');
